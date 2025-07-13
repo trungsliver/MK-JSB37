@@ -5,3 +5,25 @@ body{
     background-color: lightblue;
 }
 
+h1{
+    /* Chỉnh màu chữ */
+    color: #911d17;
+}
+
+p{
+    /* Chỉnh font chữ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Chỉnh in đậm */
+    font-weight: bold;
+    /* Chỉnh in nghiêng */
+    font-style: italic;
+}
+
+img{
+    /* Chỉnh kích thước ảnh */
+    width: 300px;
+    /* Chỉnh viền: kích thước - kiểu viền - màu */
+    border: 5px solid black;
+    /* CHỉnh độ cong của viền */
+    border-radius: 200px;
+}
