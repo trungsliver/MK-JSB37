@@ -23,3 +23,19 @@ div p {
 .external {
     background-color: lightblue;
 }
+
+/* BOX MODEL */
+.box-model{
+    /* Màu nền */
+    background-color: burlywood;
+    /* Chiều ngang */
+    width: 250px;
+    /* Chiều cao */
+    height: 80px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding: Khoảng cách từ content đến viền */
+    padding: 20px;
+    /* Margin: kcach từ viền đến thẻ khác */
+    margin: 30px;
+}
