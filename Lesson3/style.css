@@ -7,3 +7,19 @@ p {
 .jsb37 {
     color: blue;
 }
+
+/* Selector theo ID */
+#id1 {
+    color: rgb(3, 62, 33);
+}
+
+/* Selector theo con */
+div p {
+    color: white;
+    background-color:chocolate;
+}
+
+/* External CSS */
+.external {
+    background-color: lightblue;
+}
