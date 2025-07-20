@@ -39,3 +39,31 @@ div p {
     /* Margin: kcach từ viền đến thẻ khác */
     margin: 30px;
 }
+
+/* BOX SIZING */
+.container{
+    /* Xếp các phần tử bên trong nằm ngang */
+    display: flex;
+    /* Khoảng cách giữa các phần tử */
+    gap: 30px;
+}
+
+/* content-box: kích thước chỉ của content */
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+/* border-box: kích thước của content - padding - border */
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
