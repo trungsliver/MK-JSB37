@@ -1,0 +1,42 @@
+/* CSS cho tất cả thẻ p nằm trực tiếp trong div */
+div > p {
+    color: red;
+}
+
+/* CSS cho tất cả thẻ p nằm trong div */
+div h3 {
+    color: blue;
+}
+
+/* CSS Positioning */
+.position1{
+    position: relative;
+    background-color: bisque;
+}
+
+.child{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+}
+
+.child2{
+    background-color:tomato;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 50px
+}
+
+.child3{
+    background-color:chartreuse;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    z-index: 0;
+}

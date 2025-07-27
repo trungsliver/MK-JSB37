@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- CSS Cascading -->
+    <h1>CSS Cascading</h1>
+    <p>Độ ưu tiên: Inline CSS => Internal CSS => External CSS</p>
+    <p>Độ ưu tiên: ID selector => Class Selector => Tag name Selecctor</p>
+
+    <!-- Cách viết tắt ID, Class selector -->
+    <!-- ID: [Tên thẻ]#[Tên ID] -->
+    <!-- Class: [Tên thẻ].[Tên class] -->
+    <p id="p1">Đây là ví dụ cách viết tắt ID</p>
+    <p class="c1">Đây là ví dụ về cách viết tắt class</p>
+
+    <!-- CSS Selector -->
+    <div>
+        <p>Selector trực tiếp</p>
+        <h3>Selector con cháu 1</h3>
+        <span>
+            <p>Selector trực tiếp 2</p>
+            <h3>Selector con cháu 2</h3>
+        </span>
+    </div>
+
+    <!-- CSS Positioning -->
+    <div class="position1">
+        <p>static (mặc định): không thể thay đổi bằng top, left,...</p>
+        <p class="child">relative: vị trí tương đối so với vị trí gốc (static)</p>
+        <p class="child2">absolote: vị trí theo phần tử cha gần nhất</p>
+        <p class="child3">fixed: cố định trên của sổ trình duyệt</p>
+        <p>sticky: đứng yên 1 chỗ khi cuộn đến vị trí nhất định</p>
+    </div>
+</body>
+
+</html>
