@@ -1,0 +1,10 @@
+Tạo folder trong thư mục Lessons
+
+Quy tắc đặt tên folder kiểm tra: [TenLop]_[HoTen]_CP1
+Ví dụ: JSB37_DucTrung_CP1
+
+Trong folder có 3 file:
+- index.html
+- style.css
+- tracnghiem.txt
+
