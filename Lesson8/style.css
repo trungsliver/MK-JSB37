@@ -1,0 +1,22 @@
+#vidu{
+    width: 70%;
+}
+
+form input {
+    margin-top: 15px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+.gender{
+    width: 50px;
+}
+
+
+#cb-agree{
+    display: inline-block;
+    width: fit-content;
+}
