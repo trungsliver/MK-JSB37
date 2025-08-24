@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ví dụ form -->
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" required="true">   
+
+        <br>
+
+        <label for="dob">Ngày sinh</label>
+        <input type="date" name="dob" id="dob" required="true">
+
+        <br>
+
+        <label for="gender">Gender:</label>
+
+        <input type="radio" name="gender" id="male" value="male">
+        <label class="gender" for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label class="gender" for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label class="gender" for="others">Others</label>
+
+        <br>
+
+        <label for="siblings">Siblings:</label>
+        <input type="number" name="siblings" id="siblings">
+
+        <br>
+
+        
+        <label for="color">Fav color:</label>
+        <input type="color" name="color" id="color">
+
+        <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
