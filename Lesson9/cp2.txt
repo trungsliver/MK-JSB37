@@ -1,0 +1,6 @@
+Quy tắc đặt tên folder: [Lop]_[HoTen]_CP2
+Ví dụ: JSB37_BuiDucTrung_CP2
+
+Trắc nghiệm ghi vào file: tracnghiem.txt
+
+Hạn nộp: 09h15
