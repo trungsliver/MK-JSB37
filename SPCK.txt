@@ -1,7 +1,7 @@
 Thứ tự thuyết trình
 
 1. Gia Khoa
-- Ý tưởng: website musicca
+- Ý tưởng: website musicca (học nhạc cụ)
 
 2. Phan Anh
 - Ý tưởng: website nội thất
